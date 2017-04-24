@@ -20,5 +20,6 @@ public class MainTestHolder extends BaseAdapterHolder {
     public MainTestHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
+
     }
 }
