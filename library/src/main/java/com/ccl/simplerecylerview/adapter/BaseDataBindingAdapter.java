@@ -44,6 +44,16 @@ public abstract class BaseDataBindingAdapter<D, B extends ViewDataBinding> exten
         notifyItemRangeInserted(start, list.size());
     }
 
+    @Override
+    public int getItemViewType(int position) {
+        return super.getItemViewType(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
     /**
      * 清除某一数据 并刷新
      *
