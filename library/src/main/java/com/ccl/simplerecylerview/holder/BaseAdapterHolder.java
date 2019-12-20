@@ -1,8 +1,9 @@
 package com.ccl.simplerecylerview.holder;
 
-import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by ccl on 2017/4/24.
